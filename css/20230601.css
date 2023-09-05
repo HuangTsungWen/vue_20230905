@@ -1,0 +1,30 @@
+        :root{
+            --mycolor01:#D1EDE1;
+            --mycolor02:#7BC5AE;
+            --mycolor03:#028C6A;
+            --mycolor04:#003E19;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid #fa0;
+            /*padding: 10px,往內推10PX*/
+            padding: 10px;
+        }
+        .box01{
+            width: 200px;
+            height: 200px;
+            border: 2px solid #fa0;
+            /*padding: 10px,往內推10PX*/
+            padding: 10px;
+            /*主要功能是讓 padding (內距) 和 border (邊框) 不改變元素本身的 width (寬度) 和 height (高度)，所以固定寬高下，不管內距和邊框大小怎麼設定，這些元素大小都是相同的。*/
+            box-sizing: border-box;
+        }
+        .box02{
+            width: 150px;
+            height: 150px;
+            border: 2px solid var(--mycolor04);
+            background-color:var(--mycolor02);
+        }
+        

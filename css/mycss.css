@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+.demo {
+    border: 5px solid var(--mycolor0301);
+    margin: 15px;
+    padding: 15px;
+}
+
+.bodycurnone {
+    
+    font-family: "Noto Sans TC", sans-serif;
+    overflow-x: hidden;
+    cursor: none;
+   
+    
+    
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+:root {
+    --mycolor0101: #D1EDE1;
+    --mycolor0102: #7BC5AE;
+    --mycolor0103: #028C6A;
+    --mycolor0104: #003E19;
+    --mycolor0201: #D1DDDB;
+    --mycolor0202: #85B8CB;
+    --mycolor0203: #1D6A96;
+    --mycolor0204: #283B42;
+    --mycolor0301: #0359AE;
+    --mycolor0302: #14B09B;
+    --mycolor0303: #EBE5D9;
+    --mycolor0304: #CC8A56;
+}
+
+.box01 {
+    width: 200px;
+    height: 200px;
+    padding: 15px;/*padding: 15px,往內推15PX*/
+    margin: 15px;
+    border: 2px solid #fa0;      
+}
+.box02 {
+    height: 120px;
+    padding: 15px;/*padding: 15px,往內推15PX*/
+    margin: 15px;
+    border: 2px solid rgb(129, 7, 7); 
+    background-color: #0a88d6;     
+}
+.bg-cover{
+    background-position:center center ;
+    background-size: cover;
+}
+
+
+/* .myMOUSE {
+    cursor:url(),pointer; 
+   }  */
+
